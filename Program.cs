@@ -9,8 +9,6 @@ unsafe class Program
 {
 	static void Main()
 	{
-		Stopwatch t = Stopwatch.StartNew();
-
 		ushort threads = 1_000;
 		ThreadPool.SetMinThreads(threads, threads);
 
@@ -43,7 +41,5 @@ unsafe class Program
 				}
 			}
 		});
-
-		Console.WriteLine($"Time: {t.Elapsed.TotalSeconds}");
 	}
 }
