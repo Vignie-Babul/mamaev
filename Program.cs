@@ -12,7 +12,7 @@ unsafe class Program
 {
 	static void Main()
 	{
-		ushort threads = 1_000;
+		const ushort threads = 1_000;
 		ThreadPool.SetMinThreads(threads, threads);
 
 		// №7
