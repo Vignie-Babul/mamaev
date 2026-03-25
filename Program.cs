@@ -15,6 +15,7 @@ unsafe class Program
 		ushort threads = 1_000;
 		ThreadPool.SetMinThreads(threads, threads);
 
+		// №7
 		const string task = "Fpk3crp6SqKyu7RBCYRdVJFl+53cJqqMxJeJHuDyVKfvqVQcC1kh4Gq0LzepYdfQdKidpTT9DaewWfy4nd5Dow8xp7Ub7O+VmCRFAhAGWJoWxvg0yBkxfBxMw9Qgn9w2umJ/V2GU/6IwO9NVT0IzLcYWYzsJcfe3wFd8Hi8MCbntqFtkIT7TT/rCFfsD8hTO";
 
 		const uint N_26_POW_4 = 456_976;
