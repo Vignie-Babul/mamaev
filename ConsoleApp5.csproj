@@ -11,7 +11,7 @@
 
 	<ItemGroup>
 		<Reference Include="ClassLibrary2">
-			<HintPath>..\библиотека\ClassLibrary2.dll</HintPath>
+			<HintPath>..\lib\ClassLibrary2.dll</HintPath>
 		</Reference>
 	</ItemGroup>
 
